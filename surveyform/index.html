@@ -13,7 +13,8 @@
         <label for="name" id="name-label">Enter your name: <input id="name" name="name" type="text" placeholder="Enter First Name..." />  </label>
         <label for="email" id="email-label">Enter your email: <input id="email" name="email" type="email" placeholder="Enter Email..." />  </label>
         <label for="number" id="number-label">Enter your age: <input id="number" name="number" type="number"  min="13" max="120" placeholder="Enter Age..." />   </label>
-
+      </fieldset>
+      <fieldset>
         <label for="dropdown">How do you camp?
           <select id="dropdown" name="dropdown">
             <option value="">(select one)</option>
@@ -24,7 +25,43 @@
             <option value="5">rv</option>
           </select>
         </label>
-
+      </fieldset>
+      <fieldset>
+        <legend>Where do you camp on vacation?</legend>
+          <label for="where-do-you-camp1" class="inline">
+            National Parks
+            <input id="where-do-you-camp1" type="checkbox" value="National Parks" class="inline" />
+          </label> 
+          <label for="where-do-you-camp2" class="inline">
+            State Parks
+            <input id="where-do-you-camp2" type="checkbox" value="State Parks" class="inline" />
+          </label>
+          <label for="where-do-you-camp3" class="inline">
+            KOAs
+            <input id="where-do-you-camp3" type="checkbox" value="KOAs" class="inline" />
+          </label>
+          <label for="where-do-you-camp4" class="inline">
+            Private Campgrounds
+            <input id="where-do-you-camp4" type="checkbox" value="Private Campgrounds" class="inline" />
+          </label>
+          <label for="where-do-you-camp5" class="inline">
+            Walmart Parking Lot
+            <input id="where-do-you-camp5" type="checkbox" value="Walmart Parking Lot" class="inline" />
+          </label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>With pets or WithOut pets (required)</legend>
+        <label for="with"><input id="with" type="radio" name="pets" class="inline" checked /> Camp With Pets</label>
+        <label for="without"><input id="without" type="radio" name="pets" class="inline" /> Camp WithOut Pets</label>
+      </fieldset>
+      <fieldset>
+        <label for="comments">Additional comments:
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="We've been camping for 45 years and usually stay at KOAs..."></textarea>
+        </label>
+      </fieldset>
+            <fieldset>
+        <input type="submit" id="submit" value="SUBMIT" />
       </fieldset>
     </form>
   </body>

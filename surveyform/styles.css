@@ -4,8 +4,8 @@ body {
   margin: 0;
   background-color: rgb(231, 231, 225);
   color: #0c2033;
-  font-family: Tahoma;
-  font-size: 16px;
+  font-family: Chalkduster;
+  font-size: 18px;
 }
 
 h1, p {
@@ -25,6 +25,11 @@ form {
   padding-bottom: 2em;
 }
 
+fieldset {
+  border: 6px double;
+  padding: 20px;
+}
+
 label {
   display: block;
   margin: 0.5rem 0;
@@ -35,5 +40,18 @@ textarea,
 select {
   margin: 10px 0 0 0;
   width: 100%;
-  min-height: 2em;
+  min-height: 3em;
+  font-family: Chalkduster;
+  font-size: 14px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#submit {
+  background-color: #0c2033;  
+  color: rgb(231, 231, 225);
 }
