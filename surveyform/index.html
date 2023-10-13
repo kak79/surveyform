@@ -10,8 +10,8 @@
     <p id="description">This is a survey form about camping</p>
     <form id="survey-form">
       <fieldset>
-        <label for="name" id="name-label">Enter your name: <input id="name" name="name" type="text" placeholder="Enter First Name..." />  </label>
-        <label for="email" id="email-label">Enter your email: <input id="email" name="email" type="email" placeholder="Enter Email..." />  </label>
+        <label for="name" id="name-label">Enter your name: <input id="name" name="name" type="text" placeholder="Enter First Name..." required />  </label>
+        <label for="email" id="email-label">Enter your email: <input id="email" name="email" type="email" placeholder="Enter Email..." required />  </label>
         <label for="number" id="number-label">Enter your age: <input id="number" name="number" type="number"  min="13" max="120" placeholder="Enter Age..." />   </label>
       </fieldset>
       <fieldset>
@@ -52,8 +52,8 @@
       </fieldset>
       <fieldset>
         <legend>With pets or WithOut pets (required)</legend>
-        <label for="with"><input id="with" type="radio" name="pets" class="inline" checked /> Camp With Pets</label>
-        <label for="without"><input id="without" type="radio" name="pets" class="inline" /> Camp WithOut Pets</label>
+        <label for="with"><input id="with" type="radio" name="pets" class="inline" checked value="Camp With Pets" /> Camp With Pets</label>
+        <label for="without"><input id="without" type="radio" name="pets" class="inline" value="Camp WithOut Pets" /> Camp WithOut Pets</label>
       </fieldset>
       <fieldset>
         <label for="comments">Additional comments:
