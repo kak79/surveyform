@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Happy Camper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Happy Camper</h1>
+    <p id="description">This is a survey form about camping</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: <input id="name" name="name" type="text" placeholder="Enter First Name..." />  </label>
+        <label for="email" id="email-label">Enter your email: <input id="email" name="email" type="email" placeholder="Enter Email..." />  </label>
+        <label for="number" id="number-label">Enter your age: <input id="number" name="number" type="number"  min="13" max="120" placeholder="Enter Age..." />   </label>
+
+        <label for="dropdown">How do you camp?
+          <select id="dropdown" name="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">tent</option>
+            <option value="2">pop-up</option>
+            <option value="3">trailer</option>
+            <option value="4">fifth wheel</option>
+            <option value="5">rv</option>
+          </select>
+        </label>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
